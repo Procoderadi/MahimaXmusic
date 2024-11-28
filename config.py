@@ -13,9 +13,9 @@ API_HASH = getenv("API_HASH","a069bf02806468fe18427ab6b9a3bb6c")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN","7751992632:AAHPHGL7y-RjCWzvCBTOg2K6pXFtreH5KmI")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","ll_hunter_lll")
+OWNER_USERNAME = getenv("OWNER_USERNAME","PARADOX_XD")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","riyamusicrobot")
+BOT_USERNAME = getenv("BOT_USERNAME","Mahima_music_bot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME")
 # ---------------------------------------------------------
@@ -44,15 +44,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/ksdofficial8/BADNAMXMUSIC",
+    "https://github.com/Procoderadi/MahimaXmusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ksd_bot_network")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/team_riya_support")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/MadXaditya_bot_network")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://https://t.me/team_mahima_support")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -90,21 +90,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/wzwggt.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/1cwwc6.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/wzwggt.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/1cwwc6.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/wzwggt.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/1cwwc6.jpg"
 STATS_IMG_URL = "https://files.catbox.moe/bcg7x4.mp4"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/wzwggt.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/wzwggt.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/wzwggt.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/wzwggt.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/wzwggt.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/wzwggt.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/wzwggt.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/wzwggt.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/1cwwc6.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/1cwwc6.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/1cwwc6.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/1cwwc6.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/1cwwc6.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/1cwwc6.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/1cwwc6.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/1cwwc6.jpg"
 
 
 def time_to_seconds(time):
@@ -126,3 +126,4 @@ if SUPPORT_CHAT:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_CHAT url is wrong. Please ensure that it starts with https://"
         )
+
